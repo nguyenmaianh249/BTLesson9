@@ -1,0 +1,72 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#all {
+    width: 960px;
+    min-height: 400px;
+    background: #ff0000;
+    margin: auto;
+    /*giup cho min-height có tac dung voi the div ;*/
+}
+
+header {
+    width: 900px;
+    height: 100px;
+    background: #61ffab;
+    margin: 10px;
+    border: 5px solid rgb(250, 250, 137);
+}
+
+nav {
+    width: 900px;
+    height: 70px;
+    background: #61ffab;
+    margin: 10px;
+    border: 5px solid rgb(250, 250, 137);
+    margin-top: 20px;
+}
+
+#content {
+    width: 900px;
+    height: 400px;
+    background: #61ffab;
+    margin: 10px;
+    border: 5px solid rgb(250, 250, 137);
+    margin-top: 20px;
+}
+
+#left {
+    width: 500px;
+    height: 350px;
+    background: #61ffab;
+    margin: 10px;
+    border: 5px solid rgb(250, 250, 137);
+    margin-top: 20px;
+    float: left;
+}
+
+section,
+article {
+    width: 500px;
+    height: 150px;
+}
+
+aside {
+    width: 350px;
+    height: 300px;
+    border: 5px solid rgb(250, 250, 137);
+    margin-top: 20px;
+    float: left;
+}
+
+footer {
+    width: 900px;
+    height: 70px;
+    background: #61ffab;
+    margin: 10px;
+    border: 5px solid rgb(250, 250, 137);
+    margin-top: 20px;
+}
